@@ -1,0 +1,27 @@
+@media (max-width: 1441px) {
+  // hd display - old pc
+  .overflow {
+    margin-top: -272px;
+  }
+}
+@media (max-width: 1200px) {
+  // tab landscape
+  // 16/10 !!!
+  .overflow {
+    margin-top: -281px;
+  }
+}
+@media (max-width: 991px) {
+  // tab
+  .overflow {
+    margin-top: -451px;
+  }
+}
+
+@media (max-width: 767px) {
+  // cellphones
+}
+
+@media (max-width: 575px) {
+  // old cellphones - down to 320p
+}

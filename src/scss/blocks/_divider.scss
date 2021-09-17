@@ -1,0 +1,11 @@
+.divider {
+  width: 175px;
+  height: 2px;
+  background-color: $maincolor;
+  &__advantages {
+    margin: 20px auto 10px auto;
+  }
+  &__examples {
+    margin: 20px auto 25px auto;
+  }
+}

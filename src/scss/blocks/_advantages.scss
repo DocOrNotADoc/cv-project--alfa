@@ -1,0 +1,25 @@
+.advantages {
+  background-color: $bg;
+  &__wrapper {
+    margin: auto;
+    display: flex;
+    padding: 35px 0;
+    max-width: 1110px;
+  }
+  &__img {
+    margin-left: 15px;
+    min-width: 154px;
+    min-height: 154px;
+    max-width: 154px;
+    max-height: 154px;
+    background-color: $maincolor;
+    border: 2px solid $maincolor;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  &__descr {
+    margin: 0 35px;
+    color: $dark;
+    text-align: justify;
+  }
+}

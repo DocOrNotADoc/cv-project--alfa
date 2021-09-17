@@ -1,0 +1,27 @@
+.header {
+  height: 62px;
+  &__wrapper {
+    display: flex;
+    position: relative;
+    background-color: $maincolor;
+    width: 100%;
+    justify-content: space-around;
+    color: $light;
+  }
+  &__ttl{
+    font-size: 35px;
+    font-weight: 500;
+    margin-top: 4px;
+  }
+  &__menu {
+    display: flex;
+    margin-bottom: 0;
+    &_item {
+      font-size: 23px;
+      font-weight: 400;
+      display: flex;
+      list-style-type: none;
+      margin: 14px;
+    }
+  }
+}

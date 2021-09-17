@@ -1,0 +1,8 @@
+.examples {
+  background-color: $bg;
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

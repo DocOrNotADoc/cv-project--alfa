@@ -1,0 +1,55 @@
+@media (max-width: 1441px) {
+  .card {
+    width: 528px;
+    height: 297px;
+    margin: 16px;
+  }
+}
+@media (max-width: 1200px) {
+  // tab landscape
+  // 16/10
+  .card {
+    width: 490px;
+    height: 306px;
+    margin: 15px;
+    &__info{
+      background-color: rgba($light, .7);
+      transform: scale(1.25);
+    }
+    &__close-info {
+      background-color: rgba(#fff, .7);
+      transform: scale(1.25);
+    }
+    // &__content {
+    //   //test
+    //   background-color: red;
+    // }
+  }
+}
+// @media (max-width: 991px) {
+//   // tab
+//   .card {
+//     width: 306px;
+//     height: 490px;
+//     margin: 15px;
+//   }
+// }
+
+@media (max-width: 767px) {
+  // cellphones
+  // .card {
+  //   width: 490px;
+  //   height: 278px;
+  //   //?
+  //   margin: 10px;
+  // }
+}
+
+@media (max-width: 575px) {
+  // old cellphones - down to 320p
+  // .card {
+  //   width: 490px;
+  //   height: 306px;
+  //   margin: 7px;
+  // }
+}

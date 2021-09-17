@@ -1,0 +1,34 @@
+@import "./libs/bootstrap-reboot.min";
+@import "./libs/bootstrap-grid.min";
+
+@import "./base/variables";
+@import "./base/mixins";
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+// .container {
+//     width: 1400px;
+//     // box-shadow: 0 0 3rem rgba(73,74,72,.175);
+// }
+
+
+@import "./blocks/fixed";
+@import "./media/fixed-media";
+@import "./blocks/header";
+@import "./media/header-media";
+@import "./blocks/hamburger";
+@import "./media/hamburger-media";
+@import "./blocks/advantages";
+@import "./media/advantages-media";
+@import "./blocks/ttl";
+@import "./blocks/examples";
+@import "./blocks/card";
+@import "./media/card-media";
+@import "./blocks/divider";
+@import "./media/divider-media";
+@import "./blocks/footer";
+@import "./media/footer-media";
+@import "./blocks/hide-show";
+@import "./media/hide-show-media";

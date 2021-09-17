@@ -1,0 +1,23 @@
+// @media (max-width: 1441px) {
+//   // hd displays - old pc
+// }
+// @media (max-width: 1200px) {
+//   // tab landscape?
+// }
+
+@media (max-width: 991px) {
+  // tab
+  .divider {
+    &__advantages {
+      margin-top: 17px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  // cellphones
+}
+
+@media (max-width: 575px) {
+  // old cellphones - down to 320p
+}
